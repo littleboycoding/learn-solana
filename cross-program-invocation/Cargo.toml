@@ -1,0 +1,14 @@
+[package]
+name = "cross-program-invocation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-program = "1.10.8"
+
+[dev-dependencies]
+solana-program-test = "1.10.8"
+solana-sdk = "1.10.8"
+
+[lib]
+crate-type = ["cdylib", "lib"]
